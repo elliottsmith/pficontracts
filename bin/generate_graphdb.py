@@ -89,7 +89,7 @@ def prepare_plot_data(parsed_data):
 						company = equity_matches[0]
 
 					# create relationship between company and project
-					rel = Relationship(company, 'AWARDED', project)
+					rel = Relationship(company, 'EQUITY PARTNER OF', project)
 					graph.create(rel)
 
 data_dicts = data_to_dict()
